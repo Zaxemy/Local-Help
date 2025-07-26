@@ -7,14 +7,9 @@ from core.models.db_helper import db_helper
 from api_v1.products.views import router as ProductRouter
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    async with db_helper.engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
-    yield
 
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI()
 
 app.include_router(ProductRouter)
 

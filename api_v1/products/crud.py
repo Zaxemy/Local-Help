@@ -4,7 +4,7 @@ from api_v1.products.schemas import (
     ResponseProduct,
     CreateProduct,
     UpdateProduct,
-    DeleteProduct,
+    
 )
 from sqlalchemy import select
 

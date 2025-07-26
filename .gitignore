@@ -8,3 +8,6 @@ __pycache__/
 
 
 
+alembic/versions/2025_07_26_1526-32623817fbad_create_products_table.py
+alembic/versions/2025_07_26_1551-4d7528534ac1_create_table_products.py
+alembic/versions/2025_07_26_1620-d4a7a26f5e98_create_product_ttable.py

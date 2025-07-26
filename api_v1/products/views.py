@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from api_v1.products import crud
-from api_v1.products.schemas import CreateProduct, ResponseProduct, UpdateProduct, DeleteProduct
+from api_v1.products.schemas import CreateProduct, ResponseProduct, UpdateProduct
 from sqlalchemy.ext.asyncio import AsyncSession
 from core.models.db_helper import db_helper
 from core.models.products import ProductModel

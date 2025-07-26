@@ -7,5 +7,5 @@ class ProductModel(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str]
-    price: Mapped[int]
+    price: Mapped[int] = mapped_column(default=0)
     description: Mapped[str]
