@@ -8,3 +8,9 @@ class CreateProduct(BaseModel):
 
 class ResponseProduct(CreateProduct):
     id: int
+
+class UpdateProduct(CreateProduct):
+    name: str | None = None 
+    price: int | None = None
+    description: str | None = None
+
