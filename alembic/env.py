@@ -22,6 +22,8 @@ from core.models.base import Base
 from core.config import settings
 from core.models.products import ProductModel
 from core.models.users import UserModel
+from core.models.posts import PostModel
+
 target_metadata = Base.metadata
 
 
