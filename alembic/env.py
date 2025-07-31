@@ -21,6 +21,7 @@ if config.config_file_name is not None:
 from core.models.base import Base
 from core.config import settings
 from core.models.products import ProductModel
+from core.models.users import UserModel
 target_metadata = Base.metadata
 
 

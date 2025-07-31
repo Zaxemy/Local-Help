@@ -8,3 +8,4 @@ __pycache__/
 
 
 
+alembic/versions/2025_07_31_1916-15c392ffe997_create_users_table.py
